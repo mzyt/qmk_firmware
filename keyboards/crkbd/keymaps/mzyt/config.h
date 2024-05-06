@@ -30,6 +30,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 //#define QUICK_TAP_TERM 0
 #define TAPPING_TERM 150
+//#define HOLD_ON_OTHER_KEY_PRESS
+//#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
 
 #ifdef RGBLIGHT_ENABLE
     #define RGBLIGHT_EFFECT_BREATHING

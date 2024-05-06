@@ -8,3 +8,8 @@ https://github.com/jupemara/qmk_firmware/blob/feature/own/keyboards/crkbd/keymap
 
 
 qmk flash -c -kb crkbd/rev1 -km mzyt -e CONVERT_TO=promicro_rp2040
+qmk compile -c -kb crkbd/rev1 -km mzyt -e CONVERT_TO=promicro_rp2040
+
+
+もしかしたらこのコマンドでもできるかも
+make CONVERT_TO=promicro_rp2040 KEYBOARD=crkbd/rev1 KEYMAP=mzyt
